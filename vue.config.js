@@ -44,8 +44,8 @@ module.exports = {
             },
         ]
     },
-    plugins:[
+    /*plugins:[
         new VueLoaderPlugin()
-    ],
+    ],*/
 
 }
