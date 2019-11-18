@@ -1,0 +1,17 @@
+.x-link
+  text-decoration none
+  outline none
+  cursor pointer
+  color $--link-color
+
+.x-link:hover
+  color $--link-hover-color
+
+for key, val in functional-color
+  .x-link.{key}
+    color: val
+
+for key, val in functional-color
+  .x-link.{key}:hover
+    color: val
+

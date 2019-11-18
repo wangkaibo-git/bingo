@@ -1,0 +1,25 @@
+for key, val in $--tag-colors
+  .x-tag-background-{key}
+    background-color val
+  .x-tag-{key}
+    color val
+
+for key, val in $--tag-dark-colors
+  .x-tag-dark-background-{key}
+    background-color val
+  .x-tag-dark-{key}
+    color val
+
+for key, val in $--tag-light-colors
+  .x-tag-light-background-{key}
+    background-color val
+  .x-tag-light-{key}
+    color val
+
+
+
+.x-tag
+  padding 1px 12px;
+  border-radius 10px;
+  opacity: .8;
+  font-size: 12px;

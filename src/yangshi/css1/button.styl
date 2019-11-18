@@ -1,0 +1,46 @@
+.x-btn
+.x-btn-primary
+  cursor pointer
+  background-color $--btn-background-color
+  color $--btn-color
+  padding $--btn-padding
+  border 1px solid $--btn-border-color
+  border-radius $--btn-border-radius
+  font-size $--btn-font-size
+  font-weight $--btn-font-weight
+  text-align center
+  line-height 1
+  white-space nowrap
+  text-align center
+  transition .1s
+
+.x-btn:hover, .x-btn:focus
+  background-color $--btn-hover-background-color
+  border-color $--btn-hover-border-color
+
+.x-btn[disabled]
+  cursor not-allowed
+
+.x-btn-primary
+  background-color $--color-primary
+  border-color $--color-primary
+  color #fff
+.x-btn-primary:hover, .x-btn-primary:focus
+  background-color $--color-primary-hover
+  border-color $--color-primary-hover
+
+for key, val in functional-color
+  .x-btn-{key}
+    color #fff
+    background-color val
+    border-color val
+
+for key, val in functional-color
+  .x-btn-{key}:hover, .x-btn-{key}:focus
+    color #fff
+    background-color val
+    border-color val
+
+.x-btn-fat
+  width 100%
+

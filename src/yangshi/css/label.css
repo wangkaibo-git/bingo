@@ -1,0 +1,17 @@
+/*.x-label {*/
+/*    color: #7c8088;*/
+/*}*/
+
+.x-label-title {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.x-label-title-large {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.x-label-title-desc {
+    color: #7c8088;
+}

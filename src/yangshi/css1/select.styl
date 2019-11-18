@@ -1,0 +1,59 @@
+.x-select-trigger-content, .x-select-option-group, .x-select-option
+  font-size $--select-font-size
+  font-weight $--select-font-weight
+
+.x-select-option-group, .x-select-option
+  padding $--select-padding
+
+.x-select-options-content
+  background-color #FFF
+  //opacity 1
+  padding $--select-options-padding
+  overflow-y auto
+
+.x-select-option:hover
+  color $--select-option-hover-color
+  background-color $--select-option-hover-background-color
+
+.x-select-option-selected
+  color $--select-option-selected-color
+  background-color $--select-selected-option-background-color
+
+.x-select-trigger-content, .x-select-option
+  cursor pointer
+
+.x-select {
+  //background-color: #fff;
+  z-index: 2000;
+  position: absolute;
+}
+
+.x-options {
+  padding: 10px 0;
+}
+
+.x-options {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.x-option {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.x-option:hover {
+  background-color: #f4f7ed;
+}
+
+.x-option-selected {
+  /*background-color: #ebebeb;*/
+}
+
+.x-option-grow {
+  flex-grow: 1;
+  padding-left 10px;
+}
+

@@ -1,0 +1,27 @@
+.acc-form-section {
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.acc-form {
+    width: 300px;
+}
+
+.acc-btn,
+.acc-btn-primary {
+    font-size: inherit;
+    font-weight: unset;
+}
+
+.acc-btn-margin {
+    margin-right: 10px;
+}
+
+.acc-content-section {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.acc-form-btn-row {
+    margin-top: 32px;
+}

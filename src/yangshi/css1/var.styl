@@ -1,0 +1,162 @@
+//默认值， 主题色，功能色
+
+//主题色
+$--color-primary = #1fc063
+$--color-primary-hover = darken($--color-primary, 30%)
+
+//功能色
+$--functional-color-success = #67C23A
+$--functional-color-warning = #E6A23C
+$--functional-color-danger = #F56C6C
+$--functional-color-info = #909399
+functional-color = {success: $--functional-color-success,warning: $--functional-color-warning, danger: $--functional-color-danger, info: $--functional-color-info}
+
+//////////////下面的属性不直接使用，个组件通过通过自定义变量引用或者不引用上面的变量//////////////
+
+//字体色
+$--font-color-primary = #303133
+$--font-color-secondary = #909399
+//边框色
+$--border-color-primary = #DCDFE6
+//组件不可用颜色
+$--color-disabled = #f6f7f8
+//基础背景色
+$--background-color-primary = #f6f7f8
+
+$--font-size = 14px
+$--font-weight = 400
+
+$--font-size2 = 17px;
+$--font-size3 = 17px;
+
+
+//阴影
+$--shadow-primary = 0 0 14px rgba(0, 0, 0, .08);
+
+//disabled color
+
+$--padding-base = 10px
+
+$--border-radius-base = 2px
+$--border-radius-base2 = 4px
+
+$--z-index-normal = 1
+$--z-index-top = 1000
+$--z-index-popper = 2000
+
+
+//////////////上面的属性不直接使用，个组件通过通过自定义变量引用或者不引用上面的变量//////////////
+
+
+//全局定义
+$--app-font-size = $--font-size
+$--app-font-weight = $--font-weight
+$--app-color = $--font-color-primary
+$--app-background-color = $--background-color-primary
+
+//label
+$--label-color = $--font-color-secondary
+$--label-font-size = $--font-size
+$--label-font-weight = $--font-weight
+
+//input
+$--input-font-size = $--font-size
+$--input-font-weight = $--font-weight
+$--input-border-color = $--border-color-primary
+$--input-color = $--font-color-primary
+$--input-padding = $--padding-base
+$--input-border-radius = $--border-radius-base
+$--input-disabled-background-color = $--color-disabled
+$--input-hover-border-color = $--color-primary
+$--input-focus-border-color = $--color-primary
+
+
+//btn
+$--btn-background-color = #fff;
+$--btn-border-color = $--border-color-primary
+$--btn-color = $--font-color-primary
+$--btn-padding = $--padding-base
+$--btn-border-radius = $--border-radius-base
+$--btn-font-size = $--font-size
+$--btn-font-weight = $--font-weight
+$--btn-hover-background-color = darken($--btn-background-color, 30%)
+$--btn-hover-border-color = darken($--btn-background-color, 30%)
+
+
+//avatar
+$--avatar-color = #fff
+$--avatar-font-size = $--font-size
+$--avatar-font-weight = $--font-weight
+$--avatar-background-color = $--color-primary
+
+//divider
+$--divider-color = $--border-color-primary
+
+//dialog
+$--dialog-border-radius = $--border-radius-base2
+
+//link
+$--link-color = #0287ac
+$--link-hover-color = #0287ac
+
+//select
+$--select-font-size = $--font-size
+$--select-font-weight = $--font-weight
+$--select-font-size2 = $--font-size2
+$--select-font-size3 = $--font-size3
+$--select-padding = $--padding-base
+$--select-options-padding = 10px 0
+$--select-option-hover-color = $--color-primary
+$--select-option-hover-background-color = $--background-color-primary
+$--select-option-selected-color = $--color-primary
+$--select-selected-option-background-color = $--background-color-primary
+
+
+//box
+$--box-shadow-primary = $--shadow-primary
+$--box-border-radius = $--border-radius-base2
+$--box-border-color = $--border-color-primary
+
+
+//任务优先级
+
+$--priority-color-high2 = #ff4f3e
+$--priority-color-high = #E6A23C
+$--priority-color-normal = $--color-primary
+$--priority-color-low = #909399
+
+$--priority-colors = {high2: $--priority-color-high2,high: $--priority-color-high, normal: $--priority-color-normal, low: $--priority-color-low}
+
+
+//tag
+$--tag-color-1 = rgb(21, 173, 49)
+$--tag-color-2 = rgb(27, 154, 238)
+$--tag-color-3 = rgb(0, 156, 149)
+$--tag-color-4 = rgb(106, 112, 184)
+$--tag-color-5 = rgb(250, 140, 21)
+$--tag-color-6 = rgb(230, 36, 18)
+
+//
+$--tag-dark-color-1 = #038a24
+$--tag-dark-color-2 = #1b9aee
+$--tag-dark-color-3 = #008074
+$--tag-dark-color-4 = #3d3c9d
+$--tag-dark-color-5 = #d46b08
+$--tag-dark-color-6 = #c21c07
+
+$--tag-light-color-1 = #edffed
+$--tag-light-color-2 = #f2fbff
+$--tag-light-color-3 = #e5f5f2
+$--tag-light-color-4 = #f5f6ff
+$--tag-light-color-5 = #fff7e6
+$--tag-light-color-6 = #ffeded
+
+$--tag-colors = {color-1: $--tag-color-1,color-2: $--tag-color-2,color-3:  $--tag-color-3,color-4: $--tag-color-4,color-5: $--tag-color-5,color-6: $--tag-color-6}
+$--tag-dark-colors = {color-1: $--tag-dark-color-1,color-2: $--tag-dark-color-2,color-3:  $--tag-dark-color-3,color-4: $--tag-dark-color-4,color-5: $--tag-dark-color-5,color-6: $--tag-dark-color-6}
+$--tag-light-colors = {color-1: $--tag-light-color-1,color-2: $--tag-light-color-2,color-3:  $--tag-light-color-3,color-4: $--tag-light-color-4,color-5: $--tag-light-color-5,color-6: $--tag-light-color-6}
+
+//date-player
+$--date-player-color-1 = $--color-primary
+$--date-player-color-2 = #E6A23C
+$--date-player-color-3 = #ff4f3e
+$--date-player-colors = {color-1:$--date-player-color-1, color-2:$--date-player-color-2, color-3:$--date-player-color-3}

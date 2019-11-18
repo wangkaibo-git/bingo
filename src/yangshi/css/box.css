@@ -1,0 +1,23 @@
+.x-box {
+
+}
+
+.x-box-window {
+
+}
+
+.x-box-window-top {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.x-box-window-title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.x-box-window-close {
+
+}

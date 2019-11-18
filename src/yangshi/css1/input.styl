@@ -1,0 +1,35 @@
+.x-input, .x-textarea
+    outline none
+    font-size $--input-font-size
+    font-weight $--input-font-weight
+    border 1px solid $--input-border-color
+    padding $--input-padding
+    border-radius $--input-border-radius
+    width 100%
+    color $--input-color
+    background-color #fff
+    transition all .3s
+
+
+.x-input:hover, .x-textarea:hover
+    border-color $--input-hover-border-color
+
+.x-input:focus, .x-textarea:focus
+    border-color $--input-focus-border-color
+
+.x-input[disabled], .x-textarea[disabled]
+    cursor not-allowed
+    background-color $--input-disabled-background-color
+    border-color $--input-border-color
+
+
+
+.x-textarea
+        resize none
+
+.x-input-no-border
+    outline none
+    border 0
+
+textarea
+    padding 0

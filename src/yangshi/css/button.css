@@ -1,0 +1,32 @@
+/*.x-btn,*/
+/*.x-btn-primary {*/
+/*    padding: 12px;*/
+/*    font-size: inherit;*/
+/*    font-weight: inherit;*/
+
+/*    border: 1px solid transparent;*/
+/*    border-radius: 2px;*/
+/*    transition: all 0.24s ease;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.x-btn-row {*/
+/*    width: 100%;*/
+/*}*/
+
+/*.x-btn-primary {*/
+/*    color: #fff;*/
+/*    background-color: #1fc063;*/
+/*}*/
+
+/*.x-btn-primary:focus, .x-btn-primary:hover {*/
+/*    background-color: #1e9651;*/
+/*}*/
+
+/*.x-btn {*/
+/*    color: #393d45;*/
+/*    background-color: #fff;*/
+/*    border-color: #dcdee2;*/
+/*}*/
+/*.x-btn:focus, .x-btn:hover {*/
+/*    background-color: #f6f7f8;*/
+/*}*/

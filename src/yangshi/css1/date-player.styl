@@ -1,0 +1,29 @@
+.x-date-player-border
+  border 1px solid
+  border-radius 10px
+  font-size 12px
+  line-height 1
+  padding: 1px 7px
+  color #909399;
+
+.x-date-player-background
+  font-size 12px
+  padding 0 6px
+  line-height 20px
+  border-radius 2px
+  //background-color #909399;
+  //color #fff
+
+//
+//.x-date-player-font
+//  color #00feff
+
+
+for key, val in $--date-player-colors
+  .x-date-player-border-{key}
+    border-color val
+  .x-date-player-background-{key}
+    background-color val
+    color #fff
+  .x-date-player-font-{key}
+    color val

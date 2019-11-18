@@ -1,0 +1,33 @@
+.x-table {
+    cursor: pointer;
+}
+
+.x-table-row-content {
+    display: flex;
+}
+
+.x-table-row-content:hover {
+    background-color: #e3effc;
+}
+
+.x-table-row {
+    border-bottom: 1px solid #e6e8ec;
+}
+
+.x-table-row:last-child {
+    border-bottom: none;
+}
+
+.x-table-cell {
+
+}
+
+.x-table-cell-name,
+.x-table-cell-email,
+.x-table-cell-phone {
+    width: 200px;
+}
+
+.x-table-cell-btns {
+
+}

@@ -1,0 +1,34 @@
+.x-mid-layout{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.x-mid-layout-left {
+
+}
+
+.x-mid-content {
+    width: 1160px;
+}
+.x-mid-left {
+    width: 280px;
+    padding-right: 12px;
+}
+.x-mid-right {
+    width: 100%;
+}
+
+.x-sider-mid {
+    margin-top: 45px;
+}
+
+.x-sider-nav-item {
+    padding: 5px 0;
+    transition: all .24s ease;
+    color: #0287ac;
+}
+.x-sider-nav-item:hover, .x-sider-nav-item-selected {
+    padding-left:16px;
+    background-color: #e3effc;
+}
+
